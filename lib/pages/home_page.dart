@@ -17,7 +17,11 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("TESTING $name FOR $hrs HOURS"),
+          child: Text("TESTING $name FOR $hrs HOURS",
+          style: const TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          )),
         ),
       ),
       drawer: const Drawer(),
